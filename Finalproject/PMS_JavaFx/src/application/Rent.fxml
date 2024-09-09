@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="800.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="239.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="800.0" prefWidth="1099.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="590.0" layoutY="190.0" promptText="ID" />
+            <Text layoutX="591.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rent Partment">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Button layoutX="639.0" layoutY="294.0" mnemonicParsing="false" text="Submit" />
+            <Text layoutX="463.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Partment ID : " />
+            <Text layoutX="468.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Rent Type : " />
+            <TextArea layoutX="26.0" layoutY="194.0" prefHeight="400.0" prefWidth="399.0" promptText="Available Partments" />
+            <Button layoutX="226.0" layoutY="611.0" mnemonicParsing="false" text="Available Partment" />
+            <TextField layoutX="591.0" layoutY="230.0" promptText="Rent type" />
+            <Text layoutX="52.0" layoutY="631.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Show Available Partment :" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
